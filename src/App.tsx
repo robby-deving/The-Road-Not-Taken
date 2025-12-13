@@ -1,10 +1,19 @@
+import { useState, useEffect } from "react"
 import Navbar from "./components/Navbar"
 import AuthorSection from "./sections/AuthorSection"
 import HomeSection from "./sections/HomeSection"
-import ContextSection from "./sections/ContextSection"
-
+import ContextSection from "./sections/ContextSection" 
+import SummarySection from "./sections/SummarySection" 
+import PoemSection from "./sections/PoemSection"
+import AnalysisSection from "./sections/AnalysisSection"
 
 function App() {
+  const [activeAnnotation, setActiveAnnotation] = useState<any>(null)
+  const [expandedAnalysis, setExpandedAnalysis] = useState('Tone')
+
+  const toggleAnalysis = (key: string) => {
+    setExpandedAnalysis(expandedAnalysis === key ? '' : key)
+  }
 
   return (
     < div className="bg-[#FAFAF9]">
@@ -18,7 +27,7 @@ function App() {
       </section>
 
       <section id="poem">
-        // Poem section content goes here
+        <PoemSection activeAnnotation={activeAnnotation} setActiveAnnotation={setActiveAnnotation} />
       </section>
 
       <section id="context" className="my-10">
@@ -26,11 +35,11 @@ function App() {
       </section>
 
       <section id="summary">
-        // Summary section content goes here
+        <SummarySection />
       </section>
 
       <section id="analysis">
-        // Summary section content goes here
+        <AnalysisSection expandedAnalysis={expandedAnalysis} toggleAnalysis={toggleAnalysis} />
       </section>
 
 

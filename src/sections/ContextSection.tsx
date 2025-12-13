@@ -1,7 +1,7 @@
 
 export default function ContextSection() {
   return (
-    <section id="stats" className="mx-4 sm:mx-8 md:mx-20 lg:mx-40 mb-20">
+    <section id="stats" className="mx-auto max-w-screen-lg px-4 p-10 mt-10">
       <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-12">
         <h2 className="text-2xl sm:text-3xl alegreya-bold text-stone-800 flex items-center gap-3">
           
