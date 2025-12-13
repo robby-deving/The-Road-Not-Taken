@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+--font-primary: 'DM Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+/* --- Alegreya Font Family Classes --- */
+
+/* Regular (400) */
+.alegreya-regular {
+  font-family: "Alegreya", serif;
+  font-weight: 400; 
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+/* Medium (500) */
+.alegreya-medium {
+  font-family: "Alegreya", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+/* Semibold (600) */
+.alegreya-semibold {
+  font-family: "Alegreya", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+/* Bold (700) */
+.alegreya-bold {
+  font-family: "Alegreya", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+.alegreya-extrabold {
+  font-family: "Alegreya", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+/* --- Alegreya Italic Styles --- */
+
+/* Regular Italic (400) */
+.alegreya-regular-italic {
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  font-style: italic; /* Key change */
+  font-optical-sizing: auto;
+}
+
+/* Bold Italic (700) */
+.alegreya-semibold-italic {
+  font-family: "Alegreya", serif;
+  font-weight: 600;
+  font-style: italic; /* Key change */
+  font-optical-sizing: auto;
+}
