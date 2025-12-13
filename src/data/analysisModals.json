@@ -1,0 +1,32 @@
+{
+  "Tone": {
+    "title": "Tone & Attitude",
+    "description": "The tone of this poem is tricky because it mixes feelings of pride with a little bit of sadness. The speaker sighs at the end, but we don't know if he is happy or regretful about his choice. He acts like he made a brave decision to take the unique road, but he also knows deep down that the roads were basically the same. It shows that he is trying to convince himself that he made the right choice, even though he will always wonder about the path he didn't take.",
+    "keyPoints": ["Ambiguous", "Reflective", "Sad", "Hopeful"]
+  },
+  "Imagery": {
+    "title": "Imagery & Symbolism",
+    "description": "Frost paints a picture of a quiet autumn forest to show us what it feels like to grow older and face hard choices. The 'yellow wood' tells us it is fall, a time when things change and leaves die, which makes the mood feel serious and lonely. The 'undergrowth' (bushes and plants) blocks his view of the road, just like how we cannot see into the future. These images show us that life is full of unknowns, and we often have to make decisions without knowing how they will end.",
+    "keyPoints": ["Autumn", "Nature", "Yellow", "Forest"]
+  },
+  "Rhythm": {
+    "title": "Rhythm & Voice",
+    "description": "The rhythm of the poem sounds like a person walking and talking to themselves. It has a steady beat, but sometimes it stumbles or pauses, just like someone hiking on a rough path in the woods. This makes the poem feel very natural, like a friend telling you a story, rather than a stiff or robotic speech. The sound helps us feel the hesitation and thinking process of the traveler as he stands at the crossroads.",
+    "keyPoints": ["Natural", "Walking", "Stumbling", "Thinking"]
+  },
+  "Rhyme": {
+    "title": "Rhyme Scheme",
+    "description": "The poem uses a very strict rhyme pattern where the sounds at the end of the lines match up in a circle (A-B-A-A-B). Even though the speaker feels confused and unsure about which way to go, the poem itself is perfectly organized. This shows that even when life feels messy and chaotic, we try to create order by telling neat stories about it. The repeating rhymes keep the poem moving forward, just like the traveler who eventually has to keep walking.",
+    "keyPoints": ["Strict", "Circular", "Organized", "Pattern"]
+  },
+  "Meter": {
+    "title": "Meter",
+    "description": "The beat of the poem is quick and light, with four beats per line instead of the usual five found in serious old poetry. This makes it sound like a simple folk song or a ballad that is easy to remember. By using this simple beat, Frost tricks us into thinking the poem is just a nice story about a walk. However, underneath this simple beat are big, complicated questions about life, making the lesson stick with us longer.",
+    "keyPoints": ["Simple", "Song-like", "Fast", "Catchy"]
+  },
+  "Theme": {
+    "title": "Theme / Main Idea",
+    "description": "The main lesson of this poem is about how we create the story of our own lives. The speaker admits the two roads were actually the same, but he plans to tell people later that he took the one 'less traveled.' This shows that the choices we make might not be as important as how we think about them. We want to believe our choices matter and that we are brave, so we tell ourselves stories to feel better about the things we had to leave behind.",
+    "keyPoints": ["Choices", "Life Stories", "Regret", "Meaning"]
+  }
+}

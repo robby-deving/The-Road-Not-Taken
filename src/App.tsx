@@ -36,7 +36,6 @@ function App() {
 
       <section id="summary">
         <SummarySection />
-        <SummarySection />
       </section>
 
       <section id="analysis">
