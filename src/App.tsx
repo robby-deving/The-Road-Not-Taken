@@ -2,12 +2,13 @@ import Navbar from "./components/Navbar"
 import AuthorSection from "./sections/AuthorSection"
 import HomeSection from "./sections/HomeSection"
 import ContextSection from "./sections/ContextSection"
+import SummarySection from "./sections/SummarySection"
 
 
 function App() {
 
   return (
-    < div className="bg-[#FAFAF9]">
+    <div className="bg-[#FAFAF9]">
       <Navbar />
       <section id="home">
         <HomeSection />
@@ -26,7 +27,7 @@ function App() {
       </section>
 
       <section id="summary">
-        // Summary section content goes here
+        <SummarySection />
       </section>
 
       <section id="analysis">

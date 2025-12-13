@@ -69,10 +69,26 @@ body {
   font-optical-sizing: auto;
 }
 
-/* Bold Italic (700) */
+/* Medium Italic (500) */
+.alegreya-medium-italic {
+  font-family: "Alegreya", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-optical-sizing: auto;
+}
+
+/* Semibold Italic (600) */
 .alegreya-semibold-italic {
   font-family: "Alegreya", serif;
   font-weight: 600;
-  font-style: italic; /* Key change */
+  font-style: italic;
+  font-optical-sizing: auto;
+}
+
+/* Bold Italic (700) */
+.alegreya-bold-italic {
+  font-family: "Alegreya", serif;
+  font-weight: 700;
+  font-style: italic;
   font-optical-sizing: auto;
 }
