@@ -9,7 +9,7 @@ export default function SummarySection (){
           <h2 className="text-2xl sm:text-3xl alegreya-bold">Summary of the Work</h2>
         </div>
         <div className="p-6 sm:p-8 md:p-12 grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-12">
-          <div className="md:col-span-7 space-y-6 text-base sm:text-sm text-stone-700 leading-relaxed">
+          <div className="md:col-span-7 space-y-6 text-base sm:text-base text-stone-700 leading-relaxed">
             <p>
               The poem creates a deceptively simple scene: a solitary traveler stands in an autumn woods where a road forks into two. The "yellow" leaves suggest the season of change. He is paralyzed by the choice, knowing he cannot travel both paths. He stares down one as far as he can until it bends into the "undergrowth," realizing that the future is unknowable.
             </p>
@@ -23,7 +23,7 @@ export default function SummarySection (){
           <div className="md:col-span-5 bg-stone-100 p-6 sm:p-8 rounded-2xl flex flex-col justify-center">
             <div className="bg-white p-6 rounded-xl shadow-sm mb-6">
               <h4 className="alegreya-bold text-amber-700 mb-2 flex items-center gap-2"><HelpCircle className="w-4 h-4"/> Historical Context</h4>
-              <p className="text-xs text-stone-600">
+              <p className="text-sm text-stone-600">
                 Frost wrote this poem for his friend Edward Thomas, who was famously indecisive. When they walked together, Thomas would often sigh that they should have taken a different path. Frost intended the poem to be a lighthearted joke about this trait, but Thomas took it seriously—eventually leading him to enlist in WWI, where he died.
               </p>
             </div>
