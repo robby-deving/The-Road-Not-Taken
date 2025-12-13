@@ -16,7 +16,7 @@ function App() {
   }
 
   return (
-    < div className="bg-[#FAFAF9]">
+    <div className="bg-[#FAFAF9]">
       <Navbar />
       <section id="home">
         <HomeSection />
@@ -35,6 +35,7 @@ function App() {
       </section>
 
       <section id="summary">
+        <SummarySection />
         <SummarySection />
       </section>
 
