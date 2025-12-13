@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState} from "react"
 import Navbar from "./components/Navbar"
 import AuthorSection from "./sections/AuthorSection"
 import HomeSection from "./sections/HomeSection"

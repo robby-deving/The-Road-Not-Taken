@@ -7,18 +7,6 @@ interface AnalysisSectionProps {
   toggleAnalysis: (key: string) => void;
 }
 
-const getIcon = (title: string) => {
-  const icons: Record<string, JSX.Element> = {
-    'Tone & Attitude': <div className="w-6 h-6">🎭</div>,
-    'Imagery & Symbolism': <div className="w-6 h-6">🎨</div>,
-    'Rhythm & Voice': <div className="w-6 h-6">🎵</div>,
-    'Rhyme Scheme': <div className="w-6 h-6">🔤</div>,
-    'Meter (The Beat)': <div className="w-6 h-6">📏</div>,
-    'Theme / Main Idea': <div className="w-6 h-6">💡</div>,
-  };
-  return icons[title] || <div className="w-6 h-6">📚</div>;
-};
-
 const AnalysisSection: React.FC<AnalysisSectionProps> = ({ expandedAnalysis, toggleAnalysis }) => {
   return (
     <section id="analysis" className="mx-auto max-w-screen-lg px-4 p-10 mt-10">
