@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import AuthorSection from "./sections/AuthorSection"
 import HomeSection from "./sections/HomeSection"
+import ContextSection from "./sections/ContextSection"
 
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
         // Poem section content goes here
       </section>
 
-      <section id="context">
-        // Context section content goes here
+      <section id="context" className="my-10">
+        <ContextSection />
       </section>
 
       <section id="summary">
