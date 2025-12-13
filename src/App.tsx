@@ -1,18 +1,19 @@
 import Navbar from "./components/Navbar"
+import AuthorSection from "./sections/AuthorSection"
 import HomeSection from "./sections/HomeSection"
 
 
 function App() {
 
   return (
-    <>
+    < div className="bg-[#FAFAF9]">
       <Navbar />
       <section id="home">
         <HomeSection />
       </section>
 
       <section id="author">
-        // Author section content goes here
+        <AuthorSection />
       </section>
 
       <section id="poem">
@@ -42,7 +43,7 @@ function App() {
         </div>
       </footer>
             
-    </>
+    </div>
   )
 }
 
