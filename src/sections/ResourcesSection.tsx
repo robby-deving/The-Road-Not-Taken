@@ -27,7 +27,7 @@ const ResourcesSection = () => {
           </div>
         </a>
 
-        <a href="https://www.theatlantic.com/past/docs/unbound/poetry/frost/frost.html" target="_blank" rel="noreferrer" className="group block bg-white border border-stone-200 rounded-2xl p-6 hover:shadow-lg hover:border-amber-300 transition-all">
+        <a href="https://www.theatlantic.com/author/robert-frost/" target="_blank" rel="noreferrer" className="group block bg-white border border-stone-200 rounded-2xl p-6 hover:shadow-lg hover:border-amber-300 transition-all">
           <div className="flex items-center justify-between">
             <div className="flex-1">
               <h3 className="text-2xl alegreya-bold text-stone-900 mb-2">The Atlantic Archives</h3>
@@ -42,7 +42,7 @@ const ResourcesSection = () => {
           </div>
         </a>
 
-        <a href="http://www.english.illinois.edu/maps/poets/a_f/frost/road.htm" target="_blank" rel="noreferrer" className="group block bg-white border border-stone-200 rounded-2xl p-6 hover:shadow-lg hover:border-amber-300 transition-all">
+        <a href="https://literaturecurry.com/uploads/pdfnotes/e33e8280-8dd3-475b-993f-8a903804c9a6_Modern%20American%20Poetry.pdf" target="_blank" rel="noreferrer" className="group block bg-white border border-stone-200 rounded-2xl p-6 hover:shadow-lg hover:border-amber-300 transition-all">
           <div className="flex items-center justify-between">
             <div className="flex-1">
               <h3 className="text-2xl alegreya-bold text-stone-900 mb-2">MAPs Criticism</h3>
