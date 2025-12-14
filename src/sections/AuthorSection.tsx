@@ -52,7 +52,7 @@ export default function AuthorSection() {
                 </div>
             </div>
             <div className="h-64 lg:h-full flex items-center img">
-                <img src="\public\image 3.png" alt="" className="w-full h-full object-cover rounded-b-2xl lg:rounded-b-none lg:rounded-tr-2xl" />
+                <img src="https://3quarksdaily.com/wp-content/uploads/2018/12/Frost--242x300.jpg" alt="" className="w-full h-full object-cover rounded-b-2xl lg:rounded-b-none lg:rounded-tr-2xl" />
             </div>
         </div>
                 <div className="p-10">
