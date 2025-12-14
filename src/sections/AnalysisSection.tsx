@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import analysisModals from '../data/analysisModals.json';
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Quote, Lightbulb, Heart } from 'lucide-react';
 import poemLinesData from '../data/poemLines.json';
+import { useScrollReveal } from '../hooks/useScrollReveal';
 
 const poemLines: Array<{text: string; analysis: string; reality: string}> = poemLinesData;
 
@@ -32,9 +33,13 @@ const PoemLineComponent = ({ line, onClick, active }: any) => (
 );
 
 const PoemSection: React.FC<PoemSectionProps> = ({ activeAnnotation, setActiveAnnotation }) => {
+  const { ref: headerRef, isVisible: headerVisible } = useScrollReveal();
+  const { ref: poemRef, isVisible: poemVisible } = useScrollReveal();
+  const { ref: analysisRef, isVisible: analysisVisible } = useScrollReveal();
+
   return (
     <section id="poem" className="mx-auto max-w-screen-lg px-4 p-10 mt-10">
-      <div className="flex flex-col md:flex-row justify-between items-end mb-8 gap-4">
+      <div ref={headerRef} className={`flex flex-col md:flex-row justify-between items-end mb-8 gap-4 transition-all duration-700 ${headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         <div>
           <h2 className="text-2xl sm:text-3xl alegreya-bold text-stone-800 mb-2">Interactive Reading</h2>
           <p className="text-stone-500 text-sm sm:text-base">Click a line to reveal the life lesson behind it.</p>
@@ -43,7 +48,7 @@ const PoemSection: React.FC<PoemSectionProps> = ({ activeAnnotation, setActiveAn
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 md:gap-8">
         {/* Poem Column */}
-        <div className="lg:col-span-6 bg-white p-6 sm:p-8 md:p-12 rounded-2xl shadow-lg border border-stone-200">
+        <div ref={poemRef} className={`lg:col-span-6 bg-white p-6 sm:p-8 md:p-12 rounded-2xl shadow-lg border border-stone-200 transition-all duration-800 ease-out ${poemVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'}`}>
           <h3 className="text-center alegreya-bold text-2xl sm:text-3xl mb-2">The Road Not Taken</h3>
           <p className="text-center text-stone-500 italic mb-10 text-sm sm:text-sm">Originally published 1916</p>
           
@@ -65,7 +70,7 @@ const PoemSection: React.FC<PoemSectionProps> = ({ activeAnnotation, setActiveAn
         </div>
 
         {/* Analysis Column */}
-        <div className="lg:col-span-6">
+        <div ref={analysisRef} className={`lg:col-span-6 transition-all duration-800 ease-out delay-150 ${analysisVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'}`}>
           <div className="sticky top-24 transition-colors duration-500 bg-stone-900 text-stone-200 p-6 sm:p-8 rounded-2xl shadow-2xl min-h-[600px] flex flex-col border-l-8 border-amber-600">
             {activeAnnotation ? (
               <div className="animate-fade-in flex-grow">
